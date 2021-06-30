@@ -1,0 +1,28 @@
+version: "3.5"
+
+services:
+  db-mysql:
+    image: mysql:8.0
+    restart: always
+    ports:
+      - "3366:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=12345
+      - MYSQL_PASSWORD=12345
+      - MYSQL_USER=demouser
+      - MYSQL_DATABASE=orderdb
+    volumes:
+      - db-data:/var/lib/mysql
+
+  app:
+    image: orderapp:0.0.5
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db-mysql
+
+volumes:
+  db-data:
+networks:
+  backend:
