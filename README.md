@@ -22,6 +22,6 @@ The application has 3 apis
 - Spring Data JPA
 - Docker 
 - Docker Compose
-- Java 11
+- Java 16
 - Swagger2
 - MySQL
