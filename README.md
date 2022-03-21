@@ -20,3 +20,5 @@ This project allows customers to create orders by selecting products.
 - Swagger2
 - MySQL
 - JUnit
+- Zipkin
+
