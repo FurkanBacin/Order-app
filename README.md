@@ -1,7 +1,7 @@
-#Order-app
+# Order-app
 This project allows customers to create orders by selecting products.
 
-##Requirements
+## Requirements
 - New products and new customers can be created.
 - Products and customers can be found by id.
 - Customer, order and product can be deleted.
@@ -11,7 +11,7 @@ This project allows customers to create orders by selecting products.
 - Customer dependent orders can be listed.
 - Order content may contain more than one product.
 
-##Technologys
+## Technologys
 - Spring Boot
 - Spring Data JPA
 - Docker
