@@ -1,0 +1,13 @@
+package com.smartera.product.service.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ReadProductForCartDTO {
+
+    private String name;
+}

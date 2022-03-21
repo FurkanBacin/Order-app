@@ -1,0 +1,10 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: CART-SERVICE
+  zipkin:
+    base-url:  http://127.0.0.1:9411/
+  banner:
+    location: banner.txt
